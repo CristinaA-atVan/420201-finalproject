@@ -1,5 +1,5 @@
-# DISCLAIMER (for anyone who stumbles upon this in the future): THIS APPLICATION DOES *NOT* USE REAL WORLD MONEY
-# THIS WAS A FINAL PROJECT MADE FOR MY COLLEGE PROGRAMMING CLASS
+# DISCLAIMER (for anyone who stumbles upon this in the future): THIS APPLICATION DOES *NOT* USE REAL WORLD MONEY. THIS WAS A FINAL PROJECT MADE FOR MY COLLEGE PROGRAMMING CLASS
+Ok, disclaimer done? Good
 
 # TO DO
 - [ ] Implemented ***Client*** abstract class
