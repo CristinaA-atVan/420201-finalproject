@@ -16,3 +16,5 @@ Anyways on to the whole reason I even made a readme
 - [x] Implemented ***InsufficientFundsException***, ***MissingChequingAccountException*** and ***InvestmentLockException***
 - [ ] Create **testing classes** for all classes
 - [ ] Create a **driver class** and **GUI**
+
+i hope i kill myself
