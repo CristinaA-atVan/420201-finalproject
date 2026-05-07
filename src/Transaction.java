@@ -5,7 +5,7 @@ public class Transaction {
         this.transactionID = transactionID;
     }
 
-    public void transfer(double amnt) {
+    public void transfer(double amnt, int sourceAcc, int destinationAcc) {
         //I'll do this eventually
     }
 }
