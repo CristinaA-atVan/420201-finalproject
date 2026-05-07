@@ -23,6 +23,14 @@ abstract class Account {
         this.balance = balance;
     }
 
+    public void withdraw(double amnt) {
+        setBalance(balance - amnt);
+    }
+
+        public void deposit(double amnt) {
+        setBalance(balance + amnt);
+    }
+
     @Override
     public String toString() {
         return "Account [accountID=" + accountID + ", balance=" + balance + "]";
