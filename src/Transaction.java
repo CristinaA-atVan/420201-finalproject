@@ -5,7 +5,11 @@ public class Transaction {
         this.transactionID = transactionID;
     }
 
-    public void transfer(double amnt, int sourceAcc, int destinationAcc) {
-        //I'll do this eventually
+    public void transfer(double amnt, Account sourceAcc, Account destinationAcc) throws InsufficientFundsException {
+        if (amnt > sourceAcc.getBalance()) {
+            throw new InsufficientFundsException();
+        }
+        sourceAcc.setBalance(sourceAcc.getBalance() - amnt);
+        destinationAcc.setBalance(destinationAcc.getBalance() - amnt);
     }
 }
